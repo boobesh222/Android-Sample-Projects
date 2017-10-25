@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Baxter</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="menus">Menus</string>
+    <string name="website">https://en.wikipedia.org/wiki/Film</string>
+    <string name="date">22 Oct 2015</string>
+    <string name="selected_item">Selected item</string>
+
+    <string-array name="baxterMenuList">
+        <item>Home</item>
+        <item>Adminstrator</item>
+        <item>Directory</item>
+        <item>Bids</item>
+        <item>Management</item>
+        <item>Fields</item>
+        <item>Fabrication</item>
+        <item>Configuration</item>
+        <item>WareHouse</item>
+
+    </string-array>
+
+    <string-array name="Home_menus">
+        <item>Welcome</item>
+        <item>menu 2</item>
+        <item>menu 3 </item>
+        <item>menu 4 </item>
+    </string-array>
+    <string-array name="Adminstrator_menus">
+        <item>menu 1</item>
+        <item>menu 2</item>
+        <item>menu 3 </item>
+        <item>menu 4 </item>
+    </string-array>
+    <string-array name="Directory_menus">
+        <item>menu 1</item>
+        <item>menu 2</item>
+        <item>menu 3 </item>
+        <item>menu 4 </item>
+    </string-array>
+    <string-array name="Bids_menus">
+        <item>menu 1</item>
+        <item>menu 2</item>
+        <item>menu 3 </item>
+        <item>menu 4 </item>
+    </string-array>
+    <string-array name="Management_menus">
+        <item>menu 1</item>
+        <item>menu 2</item>
+        <item>menu 3 </item>
+        <item>menu 4 </item>
+    </string-array>
+    <string-array name="Fields_menus">
+        <item>menu 1</item>
+        <item>menu 2</item>
+        <item>menu 3 </item>
+        <item>menu 4 </item>
+    </string-array>
+
+    <string-array name="Fabrication_menus">
+        <item>New Project</item>
+        <item>DashBoards</item>
+        <item>Fabrication pos</item>
+        <item>Fabrication material request</item>
+        <item>Jobs in process</item>
+        <item>Fabrication Supplier pricing </item>
+        <item>System builder Utility</item>
+    </string-array>
+
+    <string-array name="configure_menus">
+        <item>menu 1</item>
+        <item>menu 2</item>
+        <item>menu 3 </item>
+        <item>menu 4 </item>
+    </string-array>
+
+    <string-array name="warehouse_menus">
+        <item>menu 1</item>
+        <item>menu 2</item>
+        <item>menu 3 </item>
+        <item>menu 4 </item>
+    </string-array>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie_title">movie title</string>
+    <string name="action_movies">Action</string>
+    <string name="musical_movies">Musical</string>
+    <string name="drama_movies">Drama</string>
+    <string name="comedy_movies">Comedy</string>
+    <string name="thriller_movies">Thriller</string>
+    <string name="movie_genre">genre</string>
+
+</resources>

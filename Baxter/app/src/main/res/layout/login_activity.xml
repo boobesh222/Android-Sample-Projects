@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbg"
+    tools:context="com.sensiple.baxter.login" >
+
+    <LinearLayout
+        android:id="@+id/logoLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/activties_ImageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:contentDescription="@null"
+            android:padding="08dp"
+            android:src="@drawable/baxtericon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/usernameLayout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="05dp"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/messageUsername_Text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="05dp"
+            android:layout_marginTop="05dp"
+            android:ems="15"
+            android:inputType="text"
+            android:hint="Username"
+            android:drawableLeft="@drawable/username"
+            android:padding="5dp"
+            android:drawablePadding="12dp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/messagePass_Text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="05dp"
+            android:layout_marginTop="05dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="12dp"
+            android:padding="05dp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textSize="20sp" >
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/signIn_button"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/signinbutton"
+            android:paddingBottom="05dp"
+            android:paddingTop="05dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/logo_ImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="@null"
+            android:padding="08dp"
+            android:src="@drawable/travcurate" />
+
+        <TextView
+            android:id="@+id/copyrite_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="05dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="(c) 2017 Baxter Kenworthy Electric"
+            />
+    </LinearLayout>
+
+</LinearLayout>
